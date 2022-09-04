@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<Description>Basic cache service with composite cache providers (in-memory and redis) and custom fallback function</Description>
+	<PackageTags>cache;in-memory;redis</PackageTags>
+  </PropertyGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\OS.Cache.InMemory\OS.Cache.InMemory.csproj" />
+    <ProjectReference Include="..\OS.Cache.Redis\OS.Cache.Redis.csproj" />
+  </ItemGroup>
+
+</Project>

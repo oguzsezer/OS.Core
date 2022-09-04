@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<Description>rabbitmq helper with auto-retry mechanism</Description>
+	<PackageTags>rabbitmq;eventbus;retry</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+  	<PackageReference Include="MediatR" Version="10.0.1" />
+  	<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  	<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+  	<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+  	<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  	<PackageReference Include="Polly" Version="7.2.3" />
+  	<PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+  </ItemGroup>
+</Project>

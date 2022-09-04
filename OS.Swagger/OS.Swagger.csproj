@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<Description>swashbuckle swagger helper</Description>
+	<PackageTags>swagger;swashbuckle</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+  	<PackageReference Include="MicroElements.Swashbuckle.FluentValidation" Version="5.7.0" />
+  	<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
+  	<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+  	<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+  	<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+  </ItemGroup>
+</Project>
