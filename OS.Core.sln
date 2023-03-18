@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.Core", "OS.Core\OS.Core.csproj", "{D6439258-DD80-41BB-B7F9-53B48472A304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.Cache.InMemory", "OS.Cache.InMemory\OS.Cache.InMemory.csproj", "{6985FC69-9E67-4A4C-BEE2-D5390B968CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.Cache.Redis", "OS.Cache.Redis\OS.Cache.Redis.csproj", "{7F508AEA-13F9-44AD-A678-B8585FFD53B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.Cache", "OS.Cache\OS.Cache.csproj", "{212A81FB-6670-4B2D-83F1-50CB4AFD84DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.RabbitMq", "OS.RabbitMq\OS.RabbitMq.csproj", "{BE60F2B4-8FA5-42E9-BC64-DD149AF2765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.MongoDb", "OS.MongoDb\OS.MongoDb.csproj", "{D625251A-A9BB-462C-83EE-8C3BC3C357EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS.Swagger", "OS.Swagger\OS.Swagger.csproj", "{51CBFA10-CCB6-41AE-B46C-446256B25917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6439258-DD80-41BB-B7F9-53B48472A304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6439258-DD80-41BB-B7F9-53B48472A304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6439258-DD80-41BB-B7F9-53B48472A304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6439258-DD80-41BB-B7F9-53B48472A304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6985FC69-9E67-4A4C-BEE2-D5390B968CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6985FC69-9E67-4A4C-BEE2-D5390B968CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6985FC69-9E67-4A4C-BEE2-D5390B968CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6985FC69-9E67-4A4C-BEE2-D5390B968CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F508AEA-13F9-44AD-A678-B8585FFD53B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F508AEA-13F9-44AD-A678-B8585FFD53B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F508AEA-13F9-44AD-A678-B8585FFD53B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F508AEA-13F9-44AD-A678-B8585FFD53B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212A81FB-6670-4B2D-83F1-50CB4AFD84DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212A81FB-6670-4B2D-83F1-50CB4AFD84DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212A81FB-6670-4B2D-83F1-50CB4AFD84DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212A81FB-6670-4B2D-83F1-50CB4AFD84DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE60F2B4-8FA5-42E9-BC64-DD149AF2765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE60F2B4-8FA5-42E9-BC64-DD149AF2765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE60F2B4-8FA5-42E9-BC64-DD149AF2765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE60F2B4-8FA5-42E9-BC64-DD149AF2765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D625251A-A9BB-462C-83EE-8C3BC3C357EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D625251A-A9BB-462C-83EE-8C3BC3C357EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D625251A-A9BB-462C-83EE-8C3BC3C357EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D625251A-A9BB-462C-83EE-8C3BC3C357EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CBFA10-CCB6-41AE-B46C-446256B25917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CBFA10-CCB6-41AE-B46C-446256B25917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CBFA10-CCB6-41AE-B46C-446256B25917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CBFA10-CCB6-41AE-B46C-446256B25917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D53D59-509F-49C4-A83E-EB218CCBFEDE}
+	EndGlobalSection
+EndGlobal
